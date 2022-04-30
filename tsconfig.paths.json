@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "Services": ["./services/index"],
+      "Types": ["./types/index"],
+      "Consts": ["./consts/index"]
+    }
+  }
+}
