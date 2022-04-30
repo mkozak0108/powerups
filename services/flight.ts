@@ -1,7 +1,7 @@
 import { FlightSourceResponse, milliseconds } from 'Types';
 import { FlightSource } from 'Services';
 import NodeCache from 'node-cache';
-import { getFlightKey, wait } from '../helpers';
+import { getFlightKey, wait } from 'Helpers';
 import { ONE_HOUR } from 'Consts';
 
 export class FlightService {

@@ -4,7 +4,8 @@
     "paths": {
       "Services": ["./services/index"],
       "Types": ["./types/index"],
-      "Consts": ["./consts/index"]
+      "Consts": ["./consts/index"],
+      "Helpers": ["./helpers/index"]
     }
   }
 }
