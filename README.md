@@ -9,14 +9,17 @@ npm run dev
 # or
 yarn dev
 ```
+To run rests
+```bash
+npm test
+```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Flights
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+[http://localhost:3000/api/flights](http://localhost:3000/api/flights). This endpoint can be edited in `pages/api/flights.ts`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+If there are no values in the cache response might take more than one second
 
 ## Learn More
 

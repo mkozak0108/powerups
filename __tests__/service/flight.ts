@@ -67,7 +67,7 @@ describe('FlightService', () => {
     });
 
     it('should wait for responses if there are no values in the cache ', async () => {
-      const waitingTime = 300;
+      const waitingTime = 200;
       sources[0].getAll = jest.fn().mockReturnValue(
         wait(waitingTime).then(() => ({
           flights: [],
@@ -90,7 +90,7 @@ describe('FlightService', () => {
       const flightService = new FlightService(sources, timeout);
       await flightService.getAll();
 
-      const waitingTime = 300;
+      const waitingTime = 200;
       sources[0].getAll = jest.fn().mockReturnValue(
         wait(waitingTime).then(() => ({
           flights: [],
